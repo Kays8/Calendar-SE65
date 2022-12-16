@@ -18,7 +18,7 @@ function main_forNotify() {
     try {
         let nowDtime = new Date();
         let dtime = LanguageApp.translate(Utilities.formatDate(new Date(),"GMT+7", "dd MMM yyyy"),'en','th') + "\n";
-        let message = `วันนี้!! ${dtime}`;
+        let message = `วันนี้ ${dtime}!`;
 
         let userMessage = '';
         let calendarList = CalendarApp.getAllCalendars();
